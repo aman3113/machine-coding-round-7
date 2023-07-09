@@ -14,7 +14,7 @@ const DestinationsPage = () => {
 	return (
 		<div>
 			<p className="font-bold text-3xl text-white text-center mb-6">
-				Top Countries in {country.name} for your next holiday
+				Top Destinations in {country.name} for your next holiday
 			</p>
 			<div className="w-full flex flex-wrap gap-6 justify-center mt-8">
 				{country?.destinations?.map((destination) => {
